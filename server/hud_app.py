@@ -81,7 +81,7 @@ st.markdown("""
         margin-top: 30px;
     }
     </style>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)
 
 # Layout: Global Header Module
 st.markdown("""
@@ -90,7 +90,7 @@ st.markdown("""
         <div class="hud-subtitle">ALGEBRA</div>
         <div class="hud-version">// EXTRATERRESTRIAL COMPUTATION HUD // v5.45</div>
     </div>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)
 
 # Sidebar: Controls for Quantum State Deformations
 st.sidebar.title("🎛️ Manifold Telemetry Controls")
@@ -99,7 +99,7 @@ t = st.sidebar.slider("Dimension Temporal Phase (Time)", 0.0, 10.0, 2.5, step=0.
 # Implosion Controller Slider
 implosion = st.sidebar.slider("⚡ QUANTUM IMPLOSION CONTROLLER", 0.0, 1.0, 0.0, step=0.01)
 
-st.markdown('<div class="section-title">📊 STRATEGIC INVARIANT TELEMETRY & VECTOR TRENDS</div>', unsafe_allowed_html=True)
+st.markdown('<div class="section-title">📊 STRATEGIC INVARIANT TELEMETRY & VECTOR TRENDS</div>', unsafe_allow_html=True)
 
 # Compute Relativistic Math parameters dynamically based on Sidebar inputs
 beta = 0.76 + (implosion * 0.22)
@@ -117,7 +117,7 @@ with col1:
             <div class="metric-value">{gamma:.4f}</div>
             <div class="metric-delta">↑ +{1.03 + implosion:.2f} Delta Peak</div>
         </div>
-    """, unsafe_allowed_html=True)
+    """, unsafe_allow_html=True)
 
 with col2:
     st.markdown(f"""
@@ -126,7 +126,7 @@ with col2:
             <div class="metric-value">{momentum:.4E}</div>
             <div class="metric-delta">↑ +{2.00 + (implosion*5):.2f}% Acceleration</div>
         </div>
-    """, unsafe_allowed_html=True)
+    """, unsafe_allow_html=True)
 
 with col3:
     st.markdown(f"""
@@ -135,9 +135,9 @@ with col3:
             <div class="metric-value">{de_broglie:.4E}</div>
             <div class="metric-delta down">↓ -{5.00 + (implosion*12):.2f}% Wave Compression</div>
         </div>
-    """, unsafe_allowed_html=True)
+    """, unsafe_allow_html=True)
 
-st.markdown('<div class="section-title">🌌 SPACE-TIME GEODESIC ULTRA-HD RESOLUTION CANVAS</div>', unsafe_allowed_html=True)
+st.markdown('<div class="section-title">🌌 SPACE-TIME GEODESIC ULTRA-HD RESOLUTION CANVAS</div>', unsafe_allow_html=True)
 
 # Generate Parametric Manifold Geometry Coordinates
 res = 45
@@ -225,4 +225,4 @@ st.markdown("""
     <div class="status-bar">
         🛡️ TELEMETRY LINK LOCKED // ARCHITECTURE ALIGNMENT RECONFIGURED TO HIGH-DEFINITION ALIEN MATRIX
     </div>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)
