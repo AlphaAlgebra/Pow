@@ -1,0 +1,16 @@
+# Python compilation artifacts
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Node build trackers
+node_modules/
+dist/
+
+# C++ Compilation binaries
+build/
+*.o
+*.so
+*.a
+*.exe
